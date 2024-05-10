@@ -41,6 +41,12 @@ a {
   border-radius: 1rem;
   background-color: white;
 }
+.countainer .joke .flex {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  font-size: 22px;
+}
 .countainer .joke .laugh {
   margin-bottom: 10rem;
   font-size: 200%;
@@ -56,6 +62,9 @@ a {
   flex-direction: column;
   margin-bottom: 1rem;
 }
+.countainer .joke form input {
+  width: 20px;
+}
 .countainer .joke .get {
   border: 0px;
   border-radius: 1rem;
@@ -63,4 +72,11 @@ a {
   color: white;
   background-color: rgb(165, 32, 192);
   padding: 2rem 3rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.countainer .joke .get:hover {
+  transition: all 0.5s ease;
+  transform: scale(0.9);
+  background-color: darkmagenta;
 }/*# sourceMappingURL=style.css.map */

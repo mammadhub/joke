@@ -43,6 +43,12 @@ a {
         text-align: center;
         border-radius: 1rem;
         background-color: white;
+        .flex{
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            font-size: 22px;
+        }
         .laugh{
             margin-bottom: 10rem;
             font-size: 200%;
@@ -57,6 +63,9 @@ a {
             display: flex;
             flex-direction: column;
             margin-bottom: 1rem;
+            input{
+                width: 20px;
+            }
         }
         .get{
             border: 0px;
@@ -65,6 +74,13 @@ a {
             color: white;
             background-color: $benovse;
             padding: 2rem 3rem;
+            cursor: pointer;
+            margin-top: 10px;
+            &:hover{
+                transition: all 0.5s ease;
+                transform: scale(0.9);
+                background-color: darkmagenta;
+            }
         }
 
     }
